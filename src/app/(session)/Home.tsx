@@ -46,7 +46,7 @@ export default function Home({ session }: HomeProps) {
     <>
       <img src="/img/hero.png" className="w-36 aspect-square object-cover" />
       <h1 className="text-2xl text-white mt-12 text-center">
-        CoinFund at Consensus: Scavenger Hunt
+        CoinFund &#64; Consensus: Scavenger Hunt
       </h1>
       <p className="text-gray-300 my-6 text-center">
       Collect [n] NFTs to be entered into our raffle for a [prize]!
