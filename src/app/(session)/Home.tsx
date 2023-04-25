@@ -46,10 +46,14 @@ export default function Home({ session }: HomeProps) {
     <>
       <img src="/img/hero.png" className="w-36 aspect-square object-cover" />
       <h1 className="text-2xl text-white mt-12 text-center">
-        Collect [n] NFTs to be entered into our raffle for a [prize]!
+        CoinFund @ Consensus: Scavenger Hunt
       </h1>
       <p className="text-gray-300 my-6 text-center">
-        [Rules for collecting NFTs]
+        <ul>
+          <li>Meet and connect with Coinfund Portfolio Companies</li>
+          <li>Mint their NFT only after you've done so</li>
+          <li>Collect 5 NFTs to be entered into our raffle for a Claynosaurz!</li>
+        </ul>
       </p>
       <div className="w-full grid grid-cols-4 gap-4">
         {loading ? (
