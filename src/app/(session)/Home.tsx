@@ -46,10 +46,10 @@ export default function Home({ session }: HomeProps) {
     <>
       <img src="/img/hero.png" className="w-36 aspect-square object-cover" />
       <h1 className="text-2xl text-white mt-12 text-center">
-        CoinFund @ Consensus: Portco Scavenger Hunt
+        Collect [n] NFTs to be entered into our raffle for a [prize]!
       </h1>
       <p className="text-gray-300 my-6 text-center">
-        Collect 5 NFTs to be entered into our raffle for a Claynosaurz!
+      Collect [n] NFTs to be entered into our raffle for a [prize]!
       </p>
       <div className="w-full grid grid-cols-4 gap-4">
         {loading ? (
