@@ -19,7 +19,7 @@ export default function Session({ children }: { children: React.ReactNode }) {
     <>
       <div className="flex w-full justify-between items-center py-4">
         <Link href="/">
-          <Image src="/img/logo.png" alt="site logo" width={199} height={18} />
+          <Image src="/img/logo.png" alt="site logo" width={200} height={37} />
         </Link>
         {meQuery.loading ? (
           <div className="bg-contrast h-14 w-36 animate-pulse rounded-full" />
