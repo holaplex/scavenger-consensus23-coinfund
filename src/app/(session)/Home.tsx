@@ -49,11 +49,7 @@ export default function Home({ session }: HomeProps) {
         CoinFund &#64; Consensus: Scavenger Hunt
       </h1>
       <p className="text-gray-300 my-6 text-center">
-        <ul>
-          <li>Meet and connect with Coinfund Portcos</li>
-          <li>Mint their NFTs</li>
-          <li>Collect 5 NFTs to be entered into our raffle for a Claynosaurz!</li>
-        </ul>
+        Meet and connect with Coinfund Portcos, mint their NFTs, and collect 5 NFTs to be entered into our raffle for a Claynosaurz!
       </p>
       <div className="w-full grid grid-cols-4 gap-4">
         {loading ? (
